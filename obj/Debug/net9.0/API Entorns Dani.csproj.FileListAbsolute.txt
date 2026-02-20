@@ -1,0 +1,17 @@
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\API Entorns Dani.exe
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\API Entorns Dani.deps.json
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\API Entorns Dani.runtimeconfig.json
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\API Entorns Dani.dll
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\API Entorns Dani.pdb
+C:\Users\jesus\Desktop\API Entorns Dani\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.csproj.AssemblyReference.cache
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.AssemblyInfoInputs.cache
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.AssemblyInfo.cs
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Ento.5C3A7280.Up2Date
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.dll
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\refint\API Entorns Dani.dll
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.pdb
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.genruntimeconfig.cache
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\ref\API Entorns Dani.dll
