@@ -1,59 +1,39 @@
-﻿
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+
 internal class Program
 {
     private static void Main(string[] args)
     {
-
         do
         {
-            string url = "https://api.wheretheiss.at/v1/satellites/25544";
-
+            string url = "https://api.open-meteo.com/v1/forecast?latitude=41.38879&longitude=2.15899&current_weather=true";
 
             HttpClient client = new HttpClient();
 
             HttpResponseMessage response = client.GetAsync(url).Result;
             string jsonResponse = response.Content.ReadAsStringAsync().Result;
 
-            var APIISS = JsonConvert.DeserializeObject<Position>(jsonResponse);
+            var APIWeather = JsonConvert.DeserializeObject<Root>(jsonResponse);
 
-            string latitude = APIISS.latitude;
-            string longitude = APIISS.longitude;
+            double temperature = APIWeather.current_weather.temperature;
+            double windspeed = APIWeather.current_weather.windspeed;
 
-            System.Console.WriteLine($"Latitud ahora mismo: {latitude}");
-            System.Console.WriteLine($"Longitud ahora mismo: {longitude}");
+            System.Console.WriteLine($"Temperatura en BCN ahora mismo: {temperature}°C");
+            System.Console.WriteLine($"Viento en BCN ahora mismo: {windspeed} km/h");
 
-
-            string urlpais = $"http://api.geonames.org/countrycodeJSON?lat={latitude}&lng={longitude}&username=marc";
-
-
-            HttpClient whereis = new HttpClient();
-
-            HttpResponseMessage respuesta = client.GetAsync(urlpais).Result;
-            string jsonrespuesta = respuesta.Content.ReadAsStringAsync().Result;
-
-            var whreiss = JsonConvert.DeserializeObject<Country>(jsonrespuesta);
-
-
-            System.Console.WriteLine($"Actualmente estan en : {whreiss.countryName}");
-
-            Thread.Sleep(10000);
+            Thread.Sleep(1000);
 
         } while (true);
-
-
     }
 
-    public class Position
+    public class Root
     {
-        public string latitude { get; set; }
-        public string longitude { get; set; }
+        public CurrentWeather current_weather { get; set; }
     }
 
-    public class Country
+    public class CurrentWeather
     {
-        public string countryName { get; set; }
+        public double temperature { get; set; }
+        public double windspeed { get; set; }
     }
-
-
 }

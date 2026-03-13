@@ -15,3 +15,4 @@ C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\refint\API Entorns Dani
 C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.pdb
 C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.genruntimeconfig.cache
 C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\ref\API Entorns Dani.dll
+C:\Users\jesus\Desktop\API Entorns Dani\obj\Debug\net9.0\API Entorns Dani.sourcelink.json

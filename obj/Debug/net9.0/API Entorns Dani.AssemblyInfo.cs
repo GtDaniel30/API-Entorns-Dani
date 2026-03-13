@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API Entorns Dani")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9012eebec4ae5c03d2086d5b33f64cde4aba5781")]
 [assembly: System.Reflection.AssemblyProductAttribute("API Entorns Dani")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API Entorns Dani")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
